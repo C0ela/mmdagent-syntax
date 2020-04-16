@@ -1,0 +1,25 @@
+{
+    "name": "mmdagent-syntax",
+    "displayName": "MMDAgent Syntax",
+    "description": "MMDAgent syntax highlighting support",
+    "version": "0.0.1",
+    "engines": {
+        "vscode": "^1.44.0"
+    },
+    "categories": [
+        "Programming Languages"
+    ],
+    "contributes": {
+        "languages": [{
+            "id": "mmdagent",
+            "aliases": ["MMDAgent", "mmdagent"],
+            "extensions": [".fst"],
+            "configuration": "./language-configuration.json"
+        }],
+        "grammars": [{
+            "language": "mmdagent",
+            "scopeName": "",
+            "path": "./syntaxes/mmdagent.tmLanguage.json"
+        }]
+    }
+}
