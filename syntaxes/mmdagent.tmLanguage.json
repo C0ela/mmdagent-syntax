@@ -13,7 +13,7 @@
 		"keywords": {
 			"patterns": [{
 				"name": "entity.name.function",
-				"match": "(MODEL_ADD|MODEL_CHANGE|MODEL_CHANGE|MODEL_DELETE|MODEL_EVENT_ADD|MODEL_EVENT_CHANGE|MODEL_EVENT_DELETE)"
+				"match": "(MODEL_ADD|MODEL_CHANGE|MODEL_DELETE|MODEL_EVENT_ADD|MODEL_EVENT_CHANGE|MODEL_EVENT_DELETE)"
 			},{
 				"name": "entity.name.function",
 				"match": "(MOTION_ADD|MOTION_ACCELERATE|MOTION_CHANGE|MOTION_DELETE|MOTION_EVENT_ADD|MOTION_EVENT_ACCELERATE|MOTION_EVENT_CHANGE|MOTION_EVENT_DELETE)"
@@ -47,9 +47,6 @@
 			},{
 				"name": "entitiy.name.function",
 				"match": "(DRAGANDDROP|KEY|EXECUTE|KEY_POST)"
-			},{
-				"name": "entitiy.name.function",
-				"match": "<eps>"
 			},{
 				"name": "variable",
 				"match": "<eps>"
