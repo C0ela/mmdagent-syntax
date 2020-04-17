@@ -4,6 +4,10 @@
     "description": "MMDAgent syntax highlighting support",
     "version": "0.0.1",
     "publisher": "C0ela",
+    "repository": {
+        "type":"git",
+        "url": "https://github.com/C0ela/mmdagent-syntax"
+    },
     "engines": {
         "vscode": "^1.44.0"
     },
@@ -19,7 +23,7 @@
         }],
         "grammars": [{
             "language": "mmdagent",
-            "scopeName": "",
+            "scopeName": "source.mmdagent",
             "path": "./syntaxes/mmdagent.tmLanguage.json"
         }]
     }
