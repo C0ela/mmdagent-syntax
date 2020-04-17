@@ -12,11 +12,8 @@
 	"repository": {
 		"keywords": {
 			"patterns": [{
-				"name": "keyword.control.mmdagent",
-				"match": "\\b(if|while|for|return)\\b"
-			},{
-				"name": "keyword.operator",
-				"match": "(RECOG_EVENT_STOP|SYNTH_START|MODEL_ADD|MOTION_ADD|TIMER_EVENT_STOP)"
+				"name": "entity.name.function",
+				"match": "(MODEL_ADD|MODEL_CHANGE|MODEL_CHANGE|MODEL_EVENT_ADD|MODEL_EVENT_CHANGE|MODEL_EVENT_DELETE)"
 			}]
 		},
 		"strings": {
