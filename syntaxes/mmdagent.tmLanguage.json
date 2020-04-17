@@ -50,9 +50,6 @@
 			},{
 				"name": "variable",
 				"match": "<eps>"
-			},{
-				"name": "entity.name.operator",
-				"match": "|"
 			}]
 		},
 		"strings": {
