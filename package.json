@@ -3,6 +3,7 @@
     "displayName": "MMDAgent Syntax",
     "description": "MMDAgent syntax highlighting support",
     "version": "0.0.1",
+    "publisher": "C0ela",
     "engines": {
         "vscode": "^1.44.0"
     },
